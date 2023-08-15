@@ -8,17 +8,43 @@
   </head>
   <body>
     <header>
-      <img src="images/logo-les-bonnes-pieces.png" alt="LOGO" />
+      <img src="image/logo-les-bonnes-pieces.png" alt="LOGO" />
       <h1>Les Bonnes Pièces</h1>
     </header>
     <main>
       <!-- Menu de recherche -->
       <section class="filtres">
         <h3>Filtres</h3>
+        <button class="btn-trier">Trier par prix croissant</button>
+        <br />
+        <button class="btn-filtrer">Filtrer les pieces non abordable</button>
+        <br />
+        <button class="btn-decroissant">Trier par prix decroissant</button>
+        <br />
+        <button class="btn-sans-description">
+          Trier ceux qui ont une description
+        </button>
+        <br />
+        <p>Prix maximum:</p>
+        <input
+          type="range"
+          name="prix-max"
+          id="prix-max"
+          min="0"
+          max="60"
+          step="5"
+        />
       </section>
 
       <!-- Fiches produits -->
-      <section class="fiches"></section>
+      <section class="fiches">
+        <div class="abordables">
+          <p>pieces abordables</p>
+        </div>
+        <div class="disponibles">
+          <p>pieces disponible</p>
+        </div>
+      </section>
     </main>
   </body>
 </html>

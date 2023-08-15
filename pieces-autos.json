@@ -4,7 +4,7 @@
         "nom": "Ampoule LED",
         "prix": 60,
         "categorie": "Optiques",
-        "image":"images/ampoule-Led.png",
+        "image":"image/ampoule-Led.png",
         "description":"Distance d’éclairage : 100 mètres !",
         "disponibilite":true
     },
@@ -32,7 +32,7 @@
         "prix": 9.60,
         "categorie": "Freinage",
         "image":"image/liquide-frein.png",
-        "description":"Aucune description, ne pas rajouter de propriété.",
+        
         "disponibilite":true
     },
     {
